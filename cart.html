@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="headfoot.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5d27a2caa0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="pics/logo.png" alt="logo" id="logo">
+        <h1>Flavor Fiesta</h1>
+        <nav>
+            <button id="homeBtn">Home</button>
+            <div id="menu">
+                <button>Menu</button>
+                <div id="content">
+                    <button id="burgersBtn">Burgers</button>
+                    <button id="pizzasBtn">Pizzas</button>
+                    <button id="rollsBtn">Roll Parathas</button>
+                    <button id="drinksBtn">Drinks</button>
+                </div>
+            </div>
+            <button id="aboutBtn">About</button>
+            <button id="contactBtn">Contact</button>
+            <button id="faqBtn">FAQs</button>
+            <button id="cart"><i class="fa-solid fa-cart-shopping fa-flip-horizontal" style="color: #ffffff;"></i></button>
+        </nav>
+    </header>
+    <main>
+        <div id="nothing">Nothing in The Cart,&nbsp;&nbsp;<a href="">Add Something</a></div>
+        <h1 id = "title" >Your Cart</h1>
+        <div class="cartGallery">
+            <div class="gallery" id="RegularBeef">
+                <img src="pics/singlelayer1.png" alt="single layer burger">
+                <h3>Regular Beef</h3>
+                <h3>Price: PKR 400</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="TriplePatty">
+                <img src="pics/triplelayer1.png" alt="triple layer burger">
+                <h3>Triple Patty</h3>
+                <h3>Price: PKR 600</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="DoubleDecker">
+                <img src="pics/doublelayer1.png" alt="double layer burger">
+                <h3>Double Decker</h3>
+                <h3>Price: PKR 500</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="FiestaSpecial">
+                <img src="pics/pizza1.png" alt="cheese pizza">
+                <h3>Fiesta Special</h3>
+                <h3>Price: PKR 2600</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="OliveSpicePizza">
+                <img src="pics/pizza2.png" alt="cheese pizza">
+                <h3>Olive Spice Pizza</h3>
+                <h3>Price: PKR 2199</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="CheesePizza">
+                <img src="pics/pizza3.png" alt="cheese pizza">
+                <h3>Cheese Pizza</h3>
+                <h3>Price: PKR 2199</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="ChickTacoParatha">
+                <img src="pics/roll4.png" alt="roll paratha">
+                <h3>Chick Taco Paratha</h3>
+                <h3>Price: PKR 349</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="BeefRollParatha">
+                <img src="pics/roll2.png" alt="roll paratha">
+                <h3>Beef Roll Paratha</h3>
+                <h3>Price: 449</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="QuadRollParatha">
+                <img src="pics/roll3.png" alt="roll paratha">
+                <h3>Quad Roll Paratha</h3>
+                <h3>Price: PKR 599</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="gallery" id="SoftDrinks">
+                <img src="pics/drink1.png" alt="drink 1">
+                <h3>Soft Drinks</h3>
+                <h3>Price: PKR 150</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus" ></i>
+                </div>
+            </div>
+            <div class="gallery" id="BlueLagoon">
+                <img src="pics/drink2.png" alt="drink 2">
+                <h3>Blue Lagoon</h3>
+                <h3>Price: PKR 200</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus" ></i>
+                </div>    
+            </div>
+            <div class="gallery" id="MintMargherita">
+                <img src="pics/drink3.png" alt="drink 3">
+                <h3>Mint Margherita</h3>
+                <h3>Price: PKR 200</h3>
+                <div class="counter">
+                    <i class="fa-solid fa-minus"></i>
+                    <span>0</span>
+                    <i class="fa-solid fa-plus" ></i>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="payment"><button>Proceed to Payement</button></div>
+        <div id="space"></div>
+    </main>
+    <footer>
+        <div id="contact">
+            <h3>Address: 1234 Fiesta Street, Karachi, Pakistan</h3>
+            <h3>Email: flavor.fiesta@gmail.com</h3>
+            <h3>Phone: 123-456-7890</h3>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-instagram"></i>
+            <h3>flavor_fiesta</h3>
+            <i class="fa-brands fa-facebook"></i>
+            <h3>Flavor@Fiesta</h3>
+            <i class="fa-brands fa-twitter"></i>
+            <h3>@flavor_fiesta</h3>
+        </div>
+    </footer>
+    <script src="nav.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

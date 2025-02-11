@@ -1,0 +1,41 @@
+#body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(216, 209, 200);
+    margin: 0px;
+}
+#About{
+    text-align: center;
+    background-color: rgb(176, 26, 26);
+    color: rgb(238, 237, 237);
+    font-family: 'Lobster';
+    line-height: 2.3;
+    font-size: 50px;
+    margin: 0;
+}
+#main{
+    margin: 70px;
+    margin-top: 20px;
+}
+#side_block{
+    float: right;
+    background: rgb(176, 26, 26);
+    width: 30%;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.167;
+    padding: 20px 50px;
+    text-align: center;
+}
+.text{
+    float: left;
+    width: 60%;
+    color: rgb(52, 52, 52);
+}
+#main2{
+    margin: 70px;
+    margin-top: 20px;
+    color: rgb(52, 52, 52);
+}

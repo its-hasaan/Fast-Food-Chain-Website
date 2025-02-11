@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gallery img{
+    height: 60%;
+}
+.gallery button{
+    width: 75%;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Berlin Sans FB";
+    border: none;
+    color: white;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    background-color: rgb(176, 26, 26);
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+    margin: 20px;
+    width: 20%;
+    height: 500px;
+    border: 2px solid black;
+    transition: all 0.25s;
+}
+.gallery:hover{
+    box-shadow: 0px 0px 20px black;
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+}
+#space{
+    height: 100px;
+}

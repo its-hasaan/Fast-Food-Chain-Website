@@ -1,0 +1,23 @@
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+section{
+    margin-bottom: 40px;
+}
+#title{
+    text-align: center;
+    background-color: rgb(176, 26, 26);
+    color: rgb(238, 237, 237);
+    font-family: 'Lobster';
+    line-height: 2.3;
+    font-size: 50px;
+    margin: 0;
+}
+h2{
+    color: #008080;
+}
+p{
+    color: #333;
+}

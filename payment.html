@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="headfoot.css">
+    <link rel="stylesheet" href="payment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5d27a2caa0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="pics/logo.png" alt="logo" id="logo">
+        <h1>Flavor Fiesta</h1>
+        <nav>
+            <button id="homeBtn">Home</button>
+            <div id="menu">
+                <button>Menu</button>
+                <div id="content">
+                    <button id="burgersBtn">Burgers</button>
+                    <button id="pizzasBtn">Pizzas</button>
+                    <button id="rollsBtn">Roll Parathas</button>
+                </div>
+            </div>
+            <button id="aboutBtn">About</button>
+            <button id="contactBtn">Contact</button>
+            <button id="faqBtn">FAQs</button>
+            <button id="cart"><i class="fa-solid fa-cart-shopping fa-flip-horizontal" style="color: #ffffff;"></i></button>
+        </nav>
+    </header>
+    <main>
+        <h1 id="title">Payment</h1>
+        <div id="Credit">
+            <div id="Enter">
+                <h2>Enter Credit Card Information</h2>
+                <label for="name">Name on Card</label>
+                <input type="text" name="name" id="name" placeholder="John Doe">
+                <label for="card">Card Number</label>
+                <input type="text" name="card" id="card" placeholder="1234 5678 9012 3456" pattern="\d{16}">
+                <label for="expiry">Expiry Date</label>
+                <input type="text" name="expiry" id="expiry" placeholder="MM/YY" pattern="(0[1-9]|1[0-2])\/[0-9]{2}">
+                <label for="cvv">CVV</label>
+                <input type="text" name="cvv" id="cvv" placeholder="123" pattern="\d{3}">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" placeholder="1234 Fiesta Street, Karachi, Pakistan">
+                <label for="cash">Pay with Cash instead</label>
+                <input type="checkbox" name="cash" id="cash">
+                <label for="delivery">Delivery</label>
+                <input type="radio" name="delivery" id="delivery">
+                <label for="pickup">PickUp</label>
+                <input type="radio" name="delivery" id="pickup">
+            </div>
+            <div id="Bill">
+                <h2>Bill</h2>
+                <div class="headings">
+                    <h3>Item</h3>
+                    <h3>Quantity</h3>
+                    <h3>Price</h3>
+                </div>
+                <div id="items">
+                    <h3>Regular Beef</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Triple Patty</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Double Decker</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Fiesta Special</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Cheese Pizza</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Olive Spice Pizza</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Chick Taco Paratha</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Beef Roll Paratha</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Quad Roll Paratha</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Soft Drinks</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Blue Lagoon</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                    <h3>Mint Margherita</h3>
+                    <h4>0</h4>
+                    <h4>0</h4>
+                </div>
+                <div class="headings" id="total">
+                    <h3>Total</h3>
+                    <h3></h3>
+                    <h3>0</h3>
+                </div>
+                <button id="pay">Pay</button>
+            </div>
+        </div>
+        <div id="success">Order Placed</div>
+        <div id="incorrect">Incorrect Information</div>
+        <br><br>
+    </main>
+    <footer>
+        <div id="contact">
+            <h3>Address: 1234 Fiesta Street, Karachi, Pakistan</h3>
+            <h3>Email: flavor.fiesta@gmail.com</h3>
+            <h3>Phone: 123-456-7890</h3>
+        </div>
+        <div class="social">
+            <i class="fa-brands fa-instagram"></i>
+            <h3>flavor_fiesta</h3>
+            <i class="fa-brands fa-facebook"></i>
+            <h3>Flavor@Fiesta</h3>
+            <i class="fa-brands fa-twitter"></i>
+            <h3>@flavor_fiesta</h3>
+        </div>
+    </footer>
+    <script src="nav.js"></script>
+    <script src="payment.js"></script>
+</body>
+</html>
